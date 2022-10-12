@@ -6,12 +6,19 @@
     margin-top: 0px;
  }
 
-div {
-    background-color: #a2ddd2;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    height: 100px;
-    
+.top-container {
+   background-color: #E4F9F5;
+   
+}
+
+.middle-container {
+   background-color: red;
+   width: 200px;
+   height: 200px;
+}
+
+.bottom-container {
+   background-color: blue;
+   width: 200px;
+   height: 200px;
 }

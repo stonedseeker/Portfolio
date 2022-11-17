@@ -27,7 +27,9 @@
  }
 
  hr {
-   border-top: dotted 1px;
+   border: dotted #40514E;
+   border-bottom: none;
+   width: 4%;
  }
 
 .top-container {
@@ -38,7 +40,7 @@
 }
 
 .middle-container {
-  
+  margin: 100px 0;
 }
 
 .bottom-container {

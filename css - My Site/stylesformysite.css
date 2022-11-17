@@ -11,7 +11,6 @@
     font-size: 5.625rem;
     font-family: 'Sacramento', cursive;
     line-height: 2;
-
  }
 
  h2 {
@@ -19,6 +18,7 @@
    font-family: 'Montserrat', sans-serif;
    font-size: 2.5rem;
    font-weight: normal;
+   padding-bottom: 10px;
  }
 
  h3 {
@@ -27,16 +27,37 @@
  }
 
  hr {
-   border: dotted #40514E;
+   border: dotted #EAF6F6 6px;
    border-bottom: none;
    width: 4%;
+ }
+
+ p {
+   line-height: 2;
+ }
+
+ a {
+   color: #11999e;
+   margin: 10px 20px;
+   font-family: 'Montserrat';
+   text-decoration: none;
+ }
+
+ a:hover {
+   color: #EAF6F6;
+ }
+
+ .copyright {
+   color: #EAF6F6;
+   font-size: .75rem;
  }
 
 .top-container {
    background-color: #E4F9F5;
    position: relative;
-   padding-top: 100px;
-   padding-bottom: 340px;
+   padding: 100px 0 150px;
+   
+   margin: auto;
 }
 
 .middle-container {
@@ -44,8 +65,8 @@
 }
 
 .bottom-container {
-
- 
+ background-color: #66BFBF;
+ padding: 50px 0 20px ;
 }
 
 .skill-row {
@@ -53,7 +74,12 @@
    position: relative;
    margin: 150px auto 150px auto;
    text-align: left;
-   line-height: 2;
+   
+}
+
+.intro {
+   width: 50%;
+   margin: auto;
 }
 
 /* .red {
@@ -82,13 +108,13 @@
 .top-cloud {
    position: absolute;
    right: 300px;
-   top: 50px;
+   top: 90px;
 }
 
 .bottom-cloud  {
-   position: absolute;
-   left: 300px;
-   bottom: 300px;
+   position: relative;
+   right: 100px;
+   bottom: 270px;
 }
 
 .keyboard {
@@ -113,7 +139,7 @@
    -webkit-border-radius: 8;
    -moz-border-radius: 8;
    border-radius: 8px;
-   font-family: Arial;
+   font-family: 'Montserrat';
    color: #ffffff;
    font-size: 20px;
    padding: 10px 20px 10px 20px;
@@ -128,4 +154,9 @@
    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
    text-decoration: none;
+ }
+
+ .contact-message {
+   width: 40%;
+   margin: 40px auto 60px;
  }
